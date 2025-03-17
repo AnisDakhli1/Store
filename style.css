@@ -1,0 +1,38 @@
+body {
+    margin : 0;
+    background-color : #D5D5D5;
+    font-size : 16px;
+}
+.name-site {
+    background: linear-gradient(to bottom, #7CB8F2,#D5D5D5);
+    height: 120px;
+    width: 100%;
+}
+.name-txt {
+    margin: 0px;
+    padding: 15px;
+    font-size: 2rem;
+}
+.product-container-line-1 {
+    display: inline-block;
+    padding-top : 75px;
+    margin-left: 20px;
+
+}
+.product{
+    background-color : #5C6972;
+    opacity : 40%;
+    height: 300px;
+    width : 220px;
+    border-radius: 7%;
+    margin : 20px;
+    display: inline-block;
+    box-shadow: 0px 0px 79px 11px rgba(0,0,0,0.64);
+}
+.product:hover {
+    opacity: 100%;
+    cursor : pointer;
+    scale: 1.06;
+    transform: translate3d(0% , 0px , 100%);
+    transition: scale 0.25s ease-in , opacity 0.25s ease-in,filter 0.25s ease-in;
+}
